@@ -7,18 +7,24 @@
          <!--library script files-->
        <script src="/bower_components/angular/angular.min.js"></script>
         <script src="/bower_components/angular-route/angular-route.min.js"></script>
-        <!--library css files-->
-        <link rel="stylesheet" type="text/css"  href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
         
+         <!--library script files-->
+
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>       
+        <script src="/bower_components/popper.js/dist/umd/popper.min.js"></script>
+         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--library css files-->
+        <link rel="stylesheet" type="text/css"  href="/bower_components/bootstrap/dist/css/bootstrap.min.css">     
         <link rel="stylesheet" type="text/css"  href="assets/home.css">
         
-        <!--JS files-->
-        <script  src="js/app.js"></script>
+       
     </head>
     <body ng-app="transaction" ng-controller="homeCtrl">
+        
+        
         <navbar>
-            <nav class="navbar" >
-                <ul class="navbar-nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">Home</li>
                     <li class="nav-item">BCC</li>
                     <li class="nav-item">CNN</li>
@@ -40,11 +46,10 @@
        {{test}}
         </div>
         </div>
-          <!--library script files-->
-
-        <script src="/bower_components/jquery/dist/jquery.min.js"></script>       
-        <script src="bower_components/popper.js/dist/umd/popper.min.js"></script>
-         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+         
+        
+         <!--JS files-->
+        <script  src="js/app.js"></script>
      
     </body>
 </html>
