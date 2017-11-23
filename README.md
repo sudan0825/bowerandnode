@@ -1,3 +1,7 @@
+This is a MEAN stack framework with bower integrated. All of frontend libraries are stored in bower package, such as AngularJS and BootStrap.
+
+Codes inlustrations:
+
 1. Use library in bower_components: 
 app.use('/bower_components',express.static(path.join(__dirname +'/bower_components')));
 
